@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+<Head>
+
+
+
+  
+<title>Protein Synthesis</title>
+<style>
+
+
+h1{  
+  color:#000000;
+  text-align:center;
+ 
+}
+
+body {
+  background-color:#575757;
+font-family: Tahoma;
+text-align: center; 
+
+}
+
+div {
+  background-color: #005d1f;
+  width: 300px;
+  border: 15px solid rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px;
+  float: right;
+}
+
+img {
+  border: 5px solid #005d1f;
+}
+
+h1 {
+            text-shadow: 0 0 3px #005d1f, 0 0 5px #005d1f;
+        }
+
+</style>
+</head>
+<body>
+
+
+
+<h1>Protein Synthesis</h1>
+
+
+
+
+<p class: > Benjamin  Zapata<p>
+
+
+<p>
+Enter your DNA codon below to find out the Amino Acid
+</p>
+
+<input id="userInput">
+
+<button onclick="SYN()"> Submit </button>
+
+<p id="answer"> </p>
+
+
+<script>
+function SYN() {
+
+  let userInput= document.querySelector("#userInput");
+
+  let answer= document.querySelector("#answer");
+
+  answer.innerHTML= "none";
+
+  if (userInput.value == "ATT") {
+
+    answer.innerHTML = "Isoleucine"
+
+  }
+
+
+  if (userInput.value == "ATC") {
+
+answer.innerHTML = "Isoleucine."
+
+}
+
+  if (userInput.value == "ATA") {
+
+  answer.innerHTML = "Isoleucine.."
+
+}
+
+  if (userInput.value == "CTT") {
+
+  answer.innerHTML = "Leucine"
+
+}
+
+  if (userInput.value == "CTC") {
+
+  answer.innerHTML = "Leucine."
+
+}
+
+  if (userInput.value == "CTA") {
+
+  answer.innerHTML = "Leucine.."
+
+}
+
+  if (userInput.value == "CTG") {
+
+  answer.innerHTML = "Leucine..."
+
+}
+
+  if (userInput.value == "TTA") {
+
+  answer.innerHTML = "Leucine...."
+
+}
+
+  if (userInput.value == "TTG") {
+
+  answer.innerHTML = "Leucine....."
+
+}
+
+  if (userInput.value == "GTT") {
+
+  answer.innerHTML = "Valine"
+
+}
+
+  if (userInput.value == "GTC") {
+
+  answer.innerHTML = "Valine."
+
+}
+
+  if (userInput.value == "GTA") {
+
+  answer.innerHTML = "Valine.."
+
+}
+
+  if (userInput.value == "GTG") {
+
+  answer.innerHTML = "Valine..."
+
+}
+
+  if (userInput.value == "TTT") {
+
+  answer.innerHTML = "Phenylalanine"
+
+}
+
+  if (userInput.value == "TTC") {
+
+  answer.innerHTML = "Phenylalaine."
+  }
+
+  if (userInput.value == "ATG") {
+
+  answer.innerHTML = "Methionine"}
+
+  if (userInput.value == "TGT") {
+
+  answer.innerHTML = "Cysteine"}
+
+  if (userInput.value == "TGC") {
+
+  answer.innerHTML = "Cysteine"}
+
+  if (userInput.value == "GCT") {
+
+  answer.innerHTML = "Alanine"}
+  
+  if (userInput.value == "GCC") {
+
+  answer.innerHTML = "Alanine"}
+
+  if (userInput.value == "GCA") {
+
+  answer.innerHTML = "Alanine"}
+
+  if (userInput.value == "GCG") {
+
+  answer.innerHTML = "Alanine"}
+
+  if (userInput.value == "GGT") {
+
+  answer.innerHTML = "Glycine"}
+
+  if (userInput.value == "GGC") {
+
+  answer.innerHTML = "Glycine"}
+
+  if (userInput.value == "GGA") {
+
+  answer.innerHTML = "Glycine"}
+
+  if (userInput.value == "GGG") {
+
+  answer.innerHTML = "Glycine"}
+
+  if (userInput.value == "CCT") {
+
+  answer.innerHTML = "Proline"}
+
+  if (userInput.value == "CCC") {
+
+  answer.innerHTML = "Proline"}
+
+  if (userInput.value == "CCA") {
+
+  answer.innerHTML = "Proline"}
+
+  if (userInput.value == "CCG") {
+
+  answer.innerHTML = "Proline"}
+
+  if (userInput.value == "ACT") {
+
+  answer.innerHTML = "Threonine"}
+
+  if (userInput.value == "ACC") {
+
+  answer.innerHTML = "Threonine"}
+
+  if (userInput.value == "ACA") {
+
+  answer.innerHTML = "Threonine"}
+
+  if (userInput.value == "ACG") {
+
+  answer.innerHTML = "Threonine"}
+
+  if (userInput.value == "TCT") {
+
+  answer.innerHTML = "Serine"}
+
+  if (userInput.value == "TCC") {
+
+  answer.innerHTML = "Serine"}
+
+  if (userInput.value == "TCA") {
+
+  answer.innerHTML = "Serine"}
+
+  if (userInput.value == "TCG") {
+
+  answer.innerHTML = "Serine"}
+
+  if (userInput.value == "AGT") {
+
+  answer.innerHTML = "Serine"}
+
+  if (userInput.value == "AGC") {
+
+  answer.innerHTML = "Serine"}
+
+  if (userInput.value == "TAT") {
+
+  answer.innerHTML = "Tyrosine"}
+
+  if (userInput.value == "TAC") {
+
+  answer.innerHTML = "Tyrosine"}
+
+  if (userInput.value == "TGG") {
+
+  answer.innerHTML = "Tryptophan"}
+
+  if (userInput.value == "CAA") {
+
+  answer.innerHTML = "Glutamine"}
+
+  if (userInput.value == "CAG") {
+
+  answer.innerHTML = "Glutamine"}
+
+  if (userInput.value == "AAT") {
+
+  answer.innerHTML = "Asparagine"}
+
+  if (userInput.value == "AAC") {
+
+  answer.innerHTML = "Asparagine"}
+
+  if (userInput.value == "CAT") {
+
+  answer.innerHTML = "Histidine"}
+
+  if (userInput.value == "CAC") {
+
+  answer.innerHTML = "Histidine"}
+
+  if (userInput.value == "GAA") {
+
+  answer.innerHTML = "Glutamic Acid"}
+
+  if (userInput.value == "GAG") {
+
+  answer.innerHTML = "Glutamic Acid"}
+
+  if (userInput.value == "GAT") {
+
+  answer.innerHTML = "Aspartic Acid"}
+
+  if (userInput.value == "GAC") {
+
+  answer.innerHTML = "Aspartic Acid"}
+
+  if (userInput.value == "AAA") {
+
+  answer.innerHTML = "Lysine"}
+
+  if (userInput.value == "AAG") {
+
+  answer.innerHTML = "Lysine"}
+
+  if (userInput.value == "CGT") {
+
+  answer.innerHTML = "Arginine"}
+
+  if (userInput.value == "GCG") {
+
+  answer.innerHTML = "Arginine"}
+
+  if (userInput.value == "CGA") {
+
+  answer.innerHTML = "Arginine"}
+
+  if (userInput.value == "CGG") {
+
+  answer.innerHTML = "Arginine"}
+
+  if (userInput.value == "AGA") {
+
+  answer.innerHTML = "Arginine"}
+
+  if (userInput.value == "AGG") {
+
+  answer.innerHTML = "Arginine"}
+
+  if (userInput.value == "TAA") {
+
+  answer.innerHTML = "STOP"}
+
+  if (userInput.value == "TAG") {
+
+  answer.innerHTML = "STOP"}
+
+  if (userInput.value == "TGA") {
+
+  answer.innerHTML = "STOP"}  
+
+
+
+
+
+  
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+</script>
+
+<p><img style="float: left;" alt="DIAGRAM" src="Screenshot 2024-02-22 220654.png" width="521" height="314" </p>
+
+
+<p><img style="float: right;" alt="DIAGRAM" src="0lWxTeUNRQOavwlgJXnpDw_b.jpg" width="521" height="314" </p>
+
+
+
+<div><h2>Transcription, Translation, and About the website </h2>Located in the Nucleus you will find mRNA starting the process of transcription. With the help of the RNA polymerase, the DNA strand is unzipped. This allows for the mRNA to make a complementary sequence to the DNA strand with the change of thymine to uracil. After the single-stranded mRNA is complete it travels from the Nucleus to the Cytoplasm to continue with Translation. During the process of translation, the mRNA is put into codons which is a sequence of 3 nitrogen bases which is the code that tRNA uses to construct amino acids. The tRNA with the use of codons and anticodons constructs polypeptides which are strands of amino acids. We can predict what amino acids are being formed with the use of only DNA strands. This website that I have created allows us to be able to predict which amino acids are being created with the use of a DNA strand codon.</div> 
